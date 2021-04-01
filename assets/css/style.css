@@ -1,0 +1,580 @@
+
+
+
+body, html{
+	height: 100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color:black;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+	/*fixed = parallax
+	scroll = normal*/
+
+}
+
+.section{
+	text-align:center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: black;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+
+.pimg1{
+	background: linear-gradient(
+			rgba(17, 126,112,0.75),
+			rgba(9, 88, 255, 0.45)
+			),url("../img/burst.jpg");
+	min-height: 100%;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat ;
+
+
+}
+
+
+.pimg2{
+	background-image: url("../img/paradise.jpg");
+	min-height: 500px;
+}
+
+
+.pimg3{
+	background-image: url("../img/bubbles.jpg");
+	min-height: 500px;
+}
+
+.pimg4{
+	background-image: url("../img/citybythebeach.jpg");
+	min-height: 500px;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-align: uppercase;
+	font-family: "Tangerine";
+	 text-shadow: 2px 2px black;
+}
+
+.ptext .border {
+	background-color: #111;
+	color: #fff;
+	padding:20px;
+}
+.ptext .border .trans {
+	background-color: transparent;
+}
+
+
+
+@media(max-width: 375px){
+	.pimg, .pimg2, .pimg3{
+	background-attachment: scroll;
+	}
+}
+
+
+.image-container {
+	width: 100px;
+	padding: 3rem;
+}
+
+
+.image-container img {
+
+	object-fit: cover;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	display: block;
+	background-size: 220px 220px;
+
+}
+
+h2{
+	font-family: "Tangerine";
+	text-align: uppercase;
+}
+
+.fullname, .job-title, .description, .ad, .works {
+	text-align:center;
+	font-family: "Tangerine";
+	text-align: uppercase;
+
+	}
+
+
+
+	.contact-btn {
+	display: block;
+	margin: auto;
+	}
+	.social-media {
+	text-align: center;
+	margin-top: 3rem;
+
+}
+
+
+	.job-title{
+	font-weight: :bolder;
+	text-shadow: 2px 2px black;
+	}
+
+	.overview{
+	order: 1;
+	padding: 3rem 0;
+
+	}
+	
+main{min-height: 100vh;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+
+
+.container{
+	display: flex;
+	align-items: center;
+	width: 75%;
+}
+
+.overview {
+	padding:  3rem;
+
+}
+.fullname{
+	font-weight: 300;
+	letter-spacing:  3px;
+	margin-bottom:  .5rem;
+		 text-shadow: 2px 2px black;
+}
+.job-title{
+	color: #ffc107;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .75rem;
+	margin-bottom: 1rem;
+	font-height: bolder;
+}
+
+.description {
+	margin-top:  1.5REM;
+	margin-bottom:  1.5REM;
+	line-height: 1.75;
+
+}
+.works{
+	margin-top: 1.5rem;
+	margin-bottom:  3rem;
+	
+}
+
+.works h2{
+font-weight: 300;
+letter-spacing: 3px;
+margin-bottom: 1rem;
+
+
+}
+.works img{
+	 width: 60px;
+	 height: 60px;
+	 object-fit: cover;
+
+}
+
+.social-media a{
+	color: #efefef;
+	margin: 0.5rem;
+	font-size: 1.5rem;
+	opacity: .75;
+
+}
+
+.social-media a:hover{
+	opacity: 1;
+
+}
+
+.ad {
+
+	margin: .5rem;
+	font-size: 1rem;
+}
+
+.ad a {
+	color: #efefef;
+	font-weight: bolder;
+	text-decoration:  none;
+}
+
+@media only screen and (max-width: 700px){
+
+body, html{
+	height: 100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color:black;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+	/*fixed = parallax
+	scroll = normal*/
+
+}
+
+.section{
+	text-align:center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: black;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
+
+.pimg1{
+	background: linear-gradient(
+			rgba(17, 126,112,0.75),
+			rgba(9, 88, 255, 0.45)
+			),url("../img/burst.jpg");
+	min-height: 100%;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat ;
+
+
+}
+
+
+.pimg2{
+	background-image: url("../img/paradise.jpg");
+	min-height: 500px;
+}
+
+
+.pimg3{
+	background-image: url("../img/bubbles.jpg");
+	min-height: 500px;
+}
+
+.pimg4{
+	background-image: url("../img/citybythebeach.jpg");
+	min-height: 500px;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	letter-spacing: 8px;
+	text-align: uppercase;
+	font-family: "Tangerine";
+	 text-shadow: 2px 2px black;
+}
+
+.ptext .border {
+	background-color: #111;
+	color: #fff;
+	padding:20px;
+	font-size: 10px;
+}
+.ptext .border .trans {
+	background-color: transparent;
+}
+
+
+
+@media(max-width: 375px){
+	.pimg, .pimg2, .pimg3{
+	background-attachment: scroll;
+	}
+}
+
+
+.image-container {
+	width: 100px;
+	padding: 3rem;
+}
+
+
+.image-container img {
+
+	object-fit: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: block;
+	background-size: 50px 50px;
+
+
+}
+
+h2{
+	font-family: "Tangerine";
+	text-align: uppercase;
+}
+
+.fullname, .job-title, .description, .ad, .works {
+	text-align:center;
+	font-family: "Tangerine";
+	text-align: uppercase;
+
+	}
+
+
+
+
+	.contact-btn {
+	display: block;
+	margin: auto;
+	}
+	.social-media {
+	text-align: center;
+	margin-top: 3rem;
+
+}
+
+
+	.job-title{
+	font-weight: :bolder;
+	text-shadow: 2px 2px black;
+	}
+
+	.overview{
+	order: 1;
+	padding: 3rem 0;
+
+	}
+	
+main{min-height: 100vh;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+
+
+.container{
+	display: flex;
+	align-items: center;
+	width: 75%;
+
+
+}
+
+.overview {
+	padding:  3rem;
+
+}
+.fullname{
+	font-weight: 300;
+	letter-spacing:  3px;
+	margin-bottom:  .5rem;
+	text-shadow: 2px 2px black;
+	font-size: 10px;
+
+}
+.job-title{
+	color: #ffc107;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: .75rem;
+	margin-bottom: 1rem;
+	font-height: bolder;
+	font-size: 10px;
+}
+/*hr{
+	width:  50rem;
+	height: 2px;
+	border: none;
+	background-color: #00BCD4;
+	margin: 1.5rem 0;
+
+}*/
+.description {
+	margin-top:  1.5REM;
+	margin-bottom:  1.5REM;
+	line-height: 1.75;
+	font-size: 15px;
+
+}
+
+.works{
+	margin-top: 1.5rem;
+	margin-bottom:  3rem;
+	
+}
+
+.works h2{
+font-weight: 300;
+letter-spacing: 3px;
+margin-bottom: 1rem;
+	font-size: 15px;
+
+}
+.works img{
+	 width: 60px;
+	 height: 60px;
+	 object-fit: cover;
+
+}
+
+.social-media a{
+	color: #efefef;
+	margin: 0.5rem;
+	font-size: 1.5rem;
+	opacity: .75;
+
+}
+
+.social-media a:hover{
+	opacity: 1;
+
+}
+
+.ad {
+
+	margin: .5rem;
+	font-size: 1rem;
+	font-size: 15px;
+
+}
+
+.ad a {
+	color: #efefef;
+	font-weight: bolder;
+	text-decoration:  none;
+
+}
+
+
+}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #eb34cc;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-size: 10px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+    font-size: 10px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+    opacity:.9 ;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 75%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+
+  resize: none;
+  min-height: 200px;
+  opacity:.5 ;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #eb34cc;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #8acde6;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  
+  background-color: #d496eb;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, 
+.open-button:hover {
+  opacity: 1;
+
+
+}
