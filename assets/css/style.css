@@ -92,7 +92,13 @@ body, html{
 	background-color: transparent;
 }
 
+.card{
 
+padding: 20px;
+background-color: black;
+border: 2px solid black;
+
+}
 
 @media(max-width: 375px){
 	.pimg, .pimg2, .pimg3{
@@ -343,7 +349,7 @@ body, html{
 
 .image-container {
 	width: 100px;
-	padding: 3rem;
+	padding: 10rem;
 }
 
 
@@ -405,10 +411,16 @@ main{min-height: 100vh;
 
 
 .container{
-	display: flex;
+	justify-content: center;
 	align-items: center;
-	width: 75%;
+	width: 50%;
 
+}
+.card{
+
+padding: 20px;
+background-color: black;
+border: 2px solid black;
 
 }
 
